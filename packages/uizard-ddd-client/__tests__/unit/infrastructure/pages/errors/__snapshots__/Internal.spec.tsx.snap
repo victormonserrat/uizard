@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InternalError renders correctly: Default 1`] = `
+<div>
+  <p>
+    Internal error
+  </p>
+</div>
+`;

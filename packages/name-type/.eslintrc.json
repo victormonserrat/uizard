@@ -1,0 +1,38 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint/eslint-plugin",
+    "import",
+    "prettier",
+    "simple-import-sort",
+    "sort"
+  ],
+  "root": true,
+  "rules": {
+    "@typescript-eslint/no-shadow": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "ignoreRestSiblings": true }
+    ],
+    "camelcase": "error",
+    "default-case-last": "error",
+    "default-param-last": "error",
+    "dot-notation": "error",
+    "eqeqeq": "error",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "no-shadow": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "sort/destructuring-properties": "error",
+    "sort/object-properties": "error",
+    "sort/type-properties": "error"
+  }
+}

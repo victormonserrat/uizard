@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index renders correctly: Default 1`] = `
+.c2 {
+  background-color: var(--color-white);
+  border: 0.0625rem solid var(--color-gray300);
+  border-radius: 0.5rem;
+  color: var(--color-black);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.75rem;
+}
+
+.c2:active,
+.c2:disabled {
+  background-color: var(--color-gray100);
+}
+
+.c2:enabled:active,
+.c2:enabled:hover,
+.c2:focus-visible {
+  border-color: var(--color-gray400);
+}
+
+.c2:disabled {
+  color: var(--color-gray600);
+}
+
+.c1 {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.c0 {
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media (min-width: 576px) {
+  .c1 {
+    gap: 1rem;
+    grid-auto-flow: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .c0 {
+    padding: 2rem;
+  }
+}
+
+<div>
+  <main
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <button
+        class="c2"
+      >
+        nodes.add
+      </button>
+      <button
+        class="c2"
+        disabled=""
+      >
+        nodes.remove
+      </button>
+    </div>
+  </main>
+</div>
+`;

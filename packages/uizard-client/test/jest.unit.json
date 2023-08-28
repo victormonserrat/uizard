@@ -1,0 +1,19 @@
+{
+  "collectCoverageFrom": ["**/*.(t|j)sx?"],
+  "coverageDirectory": "<rootDir>/coverage",
+  "moduleFileExtensions": ["js", "jsx", "json", "ts", "tsx"],
+  "moduleNameMapper": {
+    "~/test/(.*)": "<rootDir>/test/$1",
+    "~/(.*)": "<rootDir>/src/$1"
+  },
+  "modulePathIgnorePatterns": ["<rootDir>/build"],
+  "preset": "ts-jest",
+  "rootDir": "../",
+  "roots": ["<rootDir>/__tests__/unit"],
+  "setupFilesAfterEnv": ["<rootDir>/test/jest.unit.ts"],
+  "testEnvironment": "jest-environment-jsdom",
+  "testRegex": "\\.spec\\.tsx?$",
+  "transform": {
+    "^.+\\.(t|j)sx?$": ["ts-jest"]
+  }
+}

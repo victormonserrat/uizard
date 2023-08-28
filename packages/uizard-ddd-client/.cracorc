@@ -1,0 +1,12 @@
+{
+  "webpack": {
+    "alias": {
+      "~/test": [
+        "src/test/"
+      ],
+      "~": [
+        "src/"
+      ]
+    }
+  }
+}

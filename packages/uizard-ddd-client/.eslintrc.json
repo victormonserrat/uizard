@@ -1,0 +1,55 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "jsx-a11y",
+    "import",
+    "prettier",
+    "react",
+    "react-hooks",
+    "simple-import-sort",
+    "sort"
+  ],
+  "root": true,
+  "rules": {
+    "@typescript-eslint/no-shadow": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "ignoreRestSiblings": true }
+    ],
+    "camelcase": "error",
+    "default-case-last": "error",
+    "default-param-last": "error",
+    "dot-notation": "error",
+    "eqeqeq": "error",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "no-shadow": "off",
+    "react/jsx-no-bind": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/exhaustive-deps": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "sort/destructuring-properties": "error",
+    "sort/object-properties": "error",
+    "sort/type-properties": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

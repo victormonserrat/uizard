@@ -1,0 +1,27 @@
+# build output
+dist
+
+# coverage
+.nyc_output
+coverage
+
+# dependencies
+node_modules
+
+# local env files
+.env*.local
+
+# logs & pids
+*.log
+pids
+
+# misc
+.DS_Store
+*.pem
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

@@ -1,0 +1,8 @@
+{
+  "nodes": {
+    "add": "Add node",
+    "draggable": "Draggable node",
+    "dragging": "Dragging node",
+    "remove": "Remove node"
+  }
+}

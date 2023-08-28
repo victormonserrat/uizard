@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly: Default 1`] = `
+.c0 {
+  background-color: var(--color-white);
+  border: 0.0625rem solid var(--color-gray300);
+  border-radius: 0.5rem;
+  color: var(--color-black);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.75rem;
+}
+
+.c0:active,
+.c0:disabled {
+  background-color: var(--color-gray100);
+}
+
+.c0:enabled:active,
+.c0:enabled:hover,
+.c0:focus-visible {
+  border-color: var(--color-gray400);
+}
+
+.c0:disabled {
+  color: var(--color-gray600);
+}
+
+<div>
+  <button
+    class="c0"
+  />
+</div>
+`;
+
+exports[`Button renders disabled correctly: Disabled 1`] = `
+.c0 {
+  background-color: var(--color-white);
+  border: 0.0625rem solid var(--color-gray300);
+  border-radius: 0.5rem;
+  color: var(--color-black);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.75rem;
+}
+
+.c0:active,
+.c0:disabled {
+  background-color: var(--color-gray100);
+}
+
+.c0:enabled:active,
+.c0:enabled:hover,
+.c0:focus-visible {
+  border-color: var(--color-gray400);
+}
+
+.c0:disabled {
+  color: var(--color-gray600);
+}
+
+<div>
+  <button
+    class="c0"
+    disabled=""
+  />
+</div>
+`;
